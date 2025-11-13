@@ -1,0 +1,37 @@
+{
+    "keyboard_name": "QMKeybox",
+    "manufacturer": "dh",
+    "maintainer": "dh",
+    "usb": {
+        "vid": "0x6468",
+        "pid": "0x7000",
+        "device_version": "0.0.1"
+    },
+    "diode_direction": "ROW2COL",
+    "development_board": "promicro",                 
+    "matrix_pins": {
+        "cols": ["F4"],
+        "rows": ["F5"]
+    },
+    "keymap": "telegraph_pm", 
+
+    "community_layouts": ["ortho_1x1"],
+    "layouts": {
+        "LAYOUT_ortho_1x1": {
+            "layout": [
+                {"x": 0, "y": 0, "matrix": [0, 0]}
+            ]
+        }
+    },
+    "layers": [["KC_SPC"]],
+    "backlight": {
+        "pin": "B6"
+    },
+    "ws2812": {
+        "pin": "F6"
+    },
+    "apa102": {
+        "data_pin": "F6",
+        "clock_pin": "B1"
+    }
+}

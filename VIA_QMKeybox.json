@@ -1,0 +1,13 @@
+{
+  "name": "QMKeybox",
+  "vendorId": "0x6468",
+  "productId": "0x7000",
+  "matrix": { "rows": 1, "cols": 1 },
+  "layouts": {
+		"keymap": [
+        [
+          { "x": 0, "y": 0, "a": 0, "w": 1, "h": 1 }, "0,0"
+        ]
+      ]
+    }	
+}
